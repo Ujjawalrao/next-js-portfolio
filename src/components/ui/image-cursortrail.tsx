@@ -115,7 +115,7 @@ export default function ImageCursorTrail({
           transition={{ duration: 1, delay: 1 }}
           className="z-[30] text-center text-[clamp(2rem,10vw,5rem)] font-bold whitespace-nowrap mix-blend-difference select-none"
         >
-          Hi, I'm <span className="">Ujjawal</span> <br />
+          Hi, {`I'm`} <span className="">Ujjawal</span> <br />
           <span className="text-[1.8rem] sm:text-[3.4rem] md:text-[4.4rem] lg:text-[5rem]">
             A Frontend developer
           </span>
@@ -128,7 +128,7 @@ export default function ImageCursorTrail({
           className="z-[20] w-full absolute bottom-30 sm:bottom-20 md:bottom-20 px-4"
         >
           <p className="text-[clamp(0.875rem,3vw,1.2rem)] tracking-wide font-medium text-center mix-blend-difference select-none">
-            I'm a creative and detail-oriented <span className="text-blue-600">frontend developer</span> <br />
+            {`I'm`} a creative and detail-oriented <span className="text-blue-600">frontend developer</span> <br />
             passionate about turning ideas into interactive, user-friendly digital experiences!
           </p>
         </motion.div>
