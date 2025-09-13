@@ -39,7 +39,7 @@ function Navbar() {
         {/* Contact Button */}
         <div>
           <li className="list-none px-2 sm:px-3 md:px-4 py-1 sm:py-2 border border-gray-400 text-white rounded-xl hover:bg-gray-800 bg-[#121212] transition cursor-pointer text-center text-xs sm:text-base">
-            Let's Talk ↗
+            {`Let's Talk`}↗
           </li>
         </div>
 
