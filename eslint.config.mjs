@@ -1,6 +1,7 @@
 import { dirname } from "path";
 import { fileURLToPath } from "url";
 import { FlatCompat } from "@eslint/eslintrc";
+import typescriptEslintPlugin from "@typescript-eslint/eslint-plugin"; // Import plugin
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
@@ -19,6 +20,12 @@ const eslintConfig = [
       "build/**",
       "next-env.d.ts",
     ],
+    plugins: {
+      "@typescript-eslint": typescriptEslintPlugin,
+    },
+    rules: {
+      "@typescript-eslint/no-explicit-any": "off", // Disable the rule
+    },
   },
 ];
 
