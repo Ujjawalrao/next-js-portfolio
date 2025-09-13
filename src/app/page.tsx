@@ -16,7 +16,7 @@ export default function Home() {
       easing: (t) => t, // linear easing
     });
   
-    function raf(time) {
+    function raf(time:any) {
       lenis.raf(time); // pass the timestamp for smooth scrolling
       requestAnimationFrame(raf); // keep the loop going
     }
